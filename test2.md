@@ -21,7 +21,7 @@ return ok
 ```plantuml
 @startuml
 Alice -> Bob : Hello <:1f600:>
-return <:innocent:><:innocent:>
+return <:innocent:>
 Alice -> Bob : Without color: <#0:sunglasses:>
 Alice -> Bob : Change color: <#green:sunny:>
 @enduml
