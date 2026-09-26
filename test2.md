@@ -20,6 +20,9 @@ return ok
 ### 3rd
 ```plantuml
 @startuml
-emoji 26
+Alice -> Bob : Hello <:1f600:>
+return <:innocent:><:innocent:>
+Alice -> Bob : Without color: <#0:sunglasses:>
+Alice -> Bob : Change color: <#green:sunny:>
 @enduml
 ```
