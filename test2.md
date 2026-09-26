@@ -20,7 +20,6 @@ return ok
 ### 3rd
 ```plantuml
 @startuml
-Alice->Bob : Hello
-return ok
+emoji 26
 @enduml
 ```
