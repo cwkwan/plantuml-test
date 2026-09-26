@@ -26,3 +26,13 @@ Alice -> Bob : Without color: <#0:sunglasses:>
 Alice -> Bob : Change color: <#green:sunny:>
 @enduml
 ```
+
+### 4th
+```plantuml
+@startuml
+!include <C4/C4_Context>
+System(a, "A", "…")
+System_Ext(b, "B", "…")
+Rel(a, b, "does something", "HTTPS")
+@enduml
+```
